@@ -20,9 +20,16 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
+    "@fugle/backtest": "^0.1.0",
+    "@fugle/marketdata": "^1.1.0",
+    "@fugle/marketdata-nest": "^1.0.1",
     "@nestjs/common": "^10.0.0",
+    "@nestjs/config": "^3.2.2",
     "@nestjs/core": "^10.0.0",
     "@nestjs/platform-express": "^10.0.0",
+    "lodash": "^4.17.21",
+    "luxon": "^3.4.4",
+    "nest-commander": "^3.13.0",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1"
   },
@@ -32,6 +39,8 @@
     "@nestjs/testing": "^10.0.0",
     "@types/express": "^4.17.17",
     "@types/jest": "^29.5.2",
+    "@types/lodash": "^4.17.1",
+    "@types/luxon": "^3.4.2",
     "@types/node": "^20.3.1",
     "@types/supertest": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "^6.0.0",
